@@ -5,3 +5,8 @@ for (var i = 0; i < 101; i++) {
 }
 
 var j = 100;
+
+while (j) {
+    console.log(j);
+    j--;
+}
