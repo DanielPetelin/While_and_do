@@ -12,3 +12,10 @@ do {
 }  while (j);
 
 //цикл do + while дают тот же результат как и этот -->
+
+var c = 100;
+
+while (c) {
+    console.log(c);
+    c--;
+}
