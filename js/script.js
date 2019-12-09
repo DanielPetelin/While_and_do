@@ -1,3 +1,5 @@
 for (var i = 0; i < 101; i++) {
-    console.log(i);
+    if (i % (i * i) == 0) {
+        console.log(i);
+    }
 }
